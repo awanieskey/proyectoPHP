@@ -1,0 +1,104 @@
+body{
+    background: rgb(169, 185, 180);/*169, 185, 180*/
+}
+/* Header */
+.cabecera img{
+    border-radius: 50%;
+}
+.cabecera{
+    
+    display: table;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(94, 138, 98);/*94, 138, 98*/
+}
+
+
+.cntCabecera{
+    float: left;
+    width: 30%;
+    height: 200px;
+    padding: 5px;
+}
+.cabecera h1{
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+}
+.cabecera img{
+    float: center;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    display: table-cell;
+}
+/*body */ 
+.body{
+    color: rgb(23, 27, 23);
+}
+
+/*footer */
+.footer{
+    display: table;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(94, 138, 98);
+    text-align: center;
+    color: rgb(216, 241, 220);
+}
+
+
+  
+input[type = "radio"][name="estrellas"] {
+    display: none;
+}
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: grey;
+    text-align: left;
+  }
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"][name="estrellas"]:checked ~ label {
+  color: orange;
+}
+
+
+.body img{
+       width: 430px;
+        max-width: 30%;
+        height: auto;
+        
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imagen{
+    float: center;
+   border: dotted; 
+}
+
+p{
+    text-align: center;
+}
+.estrellitas{
+    float: center;
+    
+    width: 7%;
+    height: auto;
+    display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
